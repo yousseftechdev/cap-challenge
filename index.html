@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone Challenge</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        ::-webkit-scrollbar {
+            background-color: #212121;
+            padding: 20px;
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: dodgerblue;
+            border-radius: 20px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #f9f9f9;
+            background-color: #212121;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: cyan;
+        }
+
+        .info-section,
+        .editable-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #414141;
+            box-shadow: 0 4px 8px rgba(44, 97, 255, 0.505);
+        }
+
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+
+        #mainTitle {
+            background-color: #8d8d8d;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(7, 69, 255, 0.681);
+        }
+
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 600px;
+            height: 300px;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-pagination-bullet {
+            background: linear-gradient(to bottom right, blue, cyan);
+            width: 10px;
+            height: 10px;
+        }
+
+        .swiper-pagination-bullet:hover {
+            transform: scale(2) rotate(180deg);
+            opacity: 1;
+            transition: all 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="mainTitle">Capstone Challenge</h1>
+        <div class="info-section">
+            <h2>2024/2025 - Grade 10 - Semester 1</h2>
+            <h3>Theme: Matter, Form, and Function</h3>
+            <h3>Egypt Grand Challenges</h3>
+            <ul>
+                <li>
+                    Urban congestion, improving the use of arid areas, population growth
+                    and its consequences
+                </li>
+                <li>
+                    Recycling garbage and wastes for economic and environmental purposes
+                </li>
+                <li>Reducing the effect of climate change</li>
+                <li>Any other suitable grand challenges are permitted</li>
+            </ul>
+            <h3>Capstone Big Idea</h3>
+            <p>
+                Bridges allow vehicles and pedestrians to cross water streams safely
+                and quickly without ferries, reducing risks and promoting
+                connectivity. They support emergency response, trade, tourism, and
+                reduce transportation costs.
+            </p>
+            <h3>Essential Question</h3>
+            <p>
+                How can we design and construct bridges to cross water streams while
+                allowing ships to cross efficiently?
+            </p>
+            <h3>Design Challenge</h3>
+            <p>
+                Your team will design and construct a bridge with fixed and movable
+                parts using a truss structure for the fixed part. Explore truss bridge
+                designs and build and test a prototype with different bridge
+                components, including a movable section for ship passage.
+            </p>
+            <h3>Design Requirements</h3>
+            <ul>
+                <li>Scale: 1:50, Length: 40-50 meters</li>
+                <li>
+                    Two traffic lanes (3.5 m each) and two pedestrian lanes (1.5 m each)
+                    with a 1 m island in the middle
+                </li>
+                <li>Clearance of 5 m between water and bridge deck</li>
+                <li>
+                    Movable section for ships 12-14 m wide, 10 m high, operated
+                    mechanically or hydraulically
+                </li>
+                <li>Bridge must support 10 kg load with max deflection of 5 cm</li>
+                <li>Prototype weight limit: 20 Kg</li>
+            </ul>
+            <h3>Constraints</h3>
+            <ul>
+                <li>
+                    Use palm tree parts for bridge components, diameter up to 5 mm,
+                    length up to 150 mm
+                </li>
+                <li>
+                    Use adhesives for assembly, follow safety rules, and perform lab
+                    tests as needed
+                </li>
+                <li>Fixed span minimum: 12m (no internal columns)</li>
+            </ul>
+        </div>
+        <div class="editable-section">
+            <h2>Proposal</h2>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="imgs/Bridge-1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/Bridge-2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/Bridge-3.jpg" />
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="content">
+                <p>
+                    We settled for a vertical-lift bridge design, it works by having a movable section in the middle
+                    that is lifted upwards using ropes and motors.
+                <ol>
+                    <li>
+                        Materials needed:
+                        <ul>
+                            <li>
+                                Palm tree midrib (Recycled): Makes up the entire structure of the bridge.
+                            </li><br>
+                            <li>
+                                Adhesives (Glue): Sticks everything together.
+                            </li><br>
+                            <li>
+                                Lubricant (Oil or grease): Sticks Eases the passage of the moving part through the paths in the adjacent poles.
+                            </li>
+                        </ul>
+                    </li><br>
+                    <li>
+                        Electronics needed:
+                        <ul>
+                            <li>
+                                ESP32 (405 EGP): Used to controll the opening and closing of the bridge.
+                            </li><br>
+                            <li>
+                                Motor driver (80 EGP): Takes signals from the ESP to turn the motor on or off and
+                                control the direction of rotation.
+                            </li><br>
+                            <li>
+                                3-12V DC Motor (12-20 EGP): Pulls the rope to move and open the middle sectio of the
+                                bridge.
+                            </li><br>
+                            <li>
+                                External Power supply (Reused): Powers the motor instead of the ESP since it can't give
+                                the power needed to turn on the motor.
+                            </li><br>
+                            <li>
+                                Jumper wires (1.25 EGP/wire): Connects all the components together.
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+                </p>
+            </div>
+
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    effect: "coverflow",
+                    grabCursor: true,
+                    centeredSlides: true,
+                    rewind: true,
+                    slidesPerView: "auto",
+                    coverflowEffect: {
+                        rotate: 50,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
